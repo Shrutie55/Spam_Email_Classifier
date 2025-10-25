@@ -38,6 +38,7 @@ pip install -r requirements.txt
 # Run the Flask app
 python app.py
 
+---
 ##📁 Project Structure
 ├── app.py                # Main Flask application
 ├── spam_email.ipynb      # Model training and evaluation
@@ -47,7 +48,6 @@ python app.py
 ├── templates/            # HTML templates
 ├── static/               # CSS and JS files
 └── requirements.txt      # Dependencies
-
 
 ##📊 Model Training
 
