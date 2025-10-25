@@ -38,31 +38,3 @@ pip install -r requirements.txt
 # Run the Flask app
 python app.py
 
----
-##📁 Project Structure
-├── app.py                # Main Flask application
-├── spam_email.ipynb      # Model training and evaluation
-├── spam_ham_dataset.xls  # Dataset used for training
-├── model.joblib          # Trained ML model
-├── vectorizer.joblib     # TF-IDF vectorizer
-├── templates/            # HTML templates
-├── static/               # CSS and JS files
-└── requirements.txt      # Dependencies
-
-##📊 Model Training
-
-Dataset: Spam-Ham Email Dataset (.xls)
-
-Models: Naive Bayes, Logistic Regression
-
-Metrics: Accuracy, Precision, Recall, F1-score
-
-##📈 Future Enhancements
-
-🌍 Multi-language support
-
-☁️ Cloud deployment (Heroku / AWS)
-
-##📬 Integration with live email services
-
-🎨 Enhanced UI using Bootstrap or React
